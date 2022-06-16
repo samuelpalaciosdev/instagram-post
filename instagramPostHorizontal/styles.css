@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: inherit;
+}
+
+img {
+  vertical-align: top;
+  object-fit: cover;
+}
+
+.img-fluid {
+  height: 100%;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.btn-section i:hover {
+  cursor: pointer;
+}
+
+.btn-section i:first-child {
+  margin-right: 1.5rem;
+}
+
+.nav-logo {
+  height: 40px;
+  margin-left: 8rem;
+}
+
+textarea {
+  overflow: hidden;
+}
+
+.modal__btns {
+  margin: 1rem 0 1rem;
+}
+
+.modal__btns i {
+  cursor: pointer;
+  padding: 0.25rem;
+  border: 1px solid gray;
+}
+.modal__btns i:first-child {
+  margin-right: 0.5rem;
+}
+
+.btn-grey {
+  color: black;
+  border: 1px solid gray;
+  background-color: #e6e6e6;
+}
