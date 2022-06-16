@@ -1,0 +1,118 @@
+:root {
+  --background: #e2e2e2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  /* border: 1px solid red; */
+  padding: 0;
+}
+
+html {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background);
+}
+
+img {
+  vertical-align: top;
+  object-fit: cover;
+}
+
+.animal-img {
+  width: 100%;
+}
+
+.nav-logo {
+  height: 40px;
+  margin-left: 8rem;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.btn-section i:hover {
+  cursor: pointer;
+}
+
+.btn-section i:first-child {
+  margin-right: 1.5rem;
+}
+
+.card__body {
+  margin-top: 2rem;
+  padding: 1rem 0 2rem;
+  background-color: #ffff;
+}
+
+.post__date {
+  padding: 0 1rem;
+}
+
+/* .title {
+  font-size: 1.625rem;
+
+} */
+
+.date {
+  color: #8f8f8f;
+}
+
+.post__info {
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.action__btns {
+  padding: 0 1rem;
+}
+
+.action__btns i {
+  cursor: pointer;
+}
+
+.action__btns i:first-child {
+  margin-right: 1rem;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.comment {
+  font-size: 1.25rem;
+}
+
+textarea {
+  overflow: hidden;
+}
+
+.modal__btns {
+  margin: 1rem 0 1rem;
+}
+
+.modal__btns i {
+  cursor: pointer;
+  padding: 0.25rem;
+  border: 1px solid gray;
+}
+.modal__btns i:first-child {
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 400px) {
+  /* textarea {
+    width: 27.8rem;
+    height: 3.125rem;
+  } */
+}
